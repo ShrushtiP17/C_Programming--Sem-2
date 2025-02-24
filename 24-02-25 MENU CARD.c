@@ -26,6 +26,11 @@ int main()
             {
                 p2=70;
             }
+            else 
+            {
+                p1=0;
+                p2=0;
+            }
         break;
 
         case 2:
@@ -43,6 +48,11 @@ int main()
             else if(item3==2)
             {
                 p4=110;
+            }
+            else 
+            {
+                p3=0;
+                p4=0;
             }
         break;
 
@@ -72,6 +82,11 @@ int main()
             {
                 p7=70;
             }
+            else 
+            {
+                p6=0;
+                p7=0;
+            }
             }
             else if (vgng1==2){
             printf("1.FRIED CHICKEN-60Rs\n2.BIRYANI-110Rs\nEnter your preffered dish:");
@@ -86,6 +101,11 @@ int main()
             else if(item2==2)
             {
                 p7=110;
+            }
+            else 
+            {
+                p6=0;
+                p7=0;
             }
             }
             break;
@@ -115,6 +135,11 @@ int main()
             {
                 p9=70;
             }
+            else 
+            {
+                p8=0;
+                p9=0;
+            }
             }
             else if (vgng2==2){
             printf("1.FRIED CHICKEN-60Rs\n2.BIRYANI-110Rs\nEnter your preffered dish:");
@@ -129,6 +154,11 @@ int main()
             else if(item2==2)
             {
                 p9=110;
+            }
+            else 
+            {
+                p8=0;
+                p9=0;
             }
             }
             break;
