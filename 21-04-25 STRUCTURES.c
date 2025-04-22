@@ -37,5 +37,43 @@ int main(){
     printf("%c\n",punit.grade);
     printf("%s",punit.uniname);
 
+
+
+
+   struct dob{
+        int dd;
+        char mm[10];
+        int yy;
+    }shru;
+
+    scanf("%d",&shru.dd);
+    scanf("%s",shru.mm);
+    scanf("%d",&shru.yy);
+
+    printf("%d-",shru.dd);
+    printf("%s-",shru.mm);
+    printf("%d",shru.yy);
+
+
+   
+
+    struct player{
+        char name[30];
+        int runs;
+        int wickets;
+    }player;
+
+    printf("Enter name of the player:");
+    fgets(player.name,30,stdin);
+    printf("Enter runs scored:");
+    scanf("%d",&player.runs);
+    printf("Enter wickets taken:");
+    scanf("%d",&player.wickets);
+    
+    printf("%s",player.name);
+    printf("%d\n",player.runs);
+    printf("%d",player.wickets);
+
+
 }
 
